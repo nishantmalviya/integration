@@ -1,0 +1,55 @@
+{
+  "Template_19B": [
+    {
+      "fieldname": "BH_Attribute1",
+      "startindex": 9,
+      "endindex": 10,
+      "type": "string",
+      "pattern": "^(BH)"
+    },
+    "allOf": [
+      {
+        "if": {
+          "recordId": "BH"
+        },
+        "then": {
+          {
+            "fieldname": "BH_Attribute1",
+            "startindex": 9,
+            "endindex": 10,
+            "type": "string",
+            "pattern": "^(BH)"
+          },
+          {
+            "fieldname": "BH_Attribute2",
+            "startindex": 9,
+            "endindex": 10,
+            "type": "string",
+            "pattern": "^(BH)"
+          }
+        }
+      },
+      {
+        "if": {
+          "recordId": "BI"
+        },
+        "then": {
+          {
+            "fieldname": "BI_Attribute1",
+            "startindex": 9,
+            "endindex": 10,
+            "type": "string",
+            "pattern": "^(BH)"
+          },
+          {
+            "fieldname": "BI_Attribute2",
+            "startindex": 9,
+            "endindex": 10,
+            "type": "string",
+            "pattern": "^(BH)"
+          }
+        }
+      }
+    ]
+  ]
+}

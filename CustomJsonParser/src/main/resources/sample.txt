@@ -1,0 +1,1 @@
+!ITEM_NAME\nItem value\n!ANOTHER_ITEM\nIts value\n!TEST_BANG\nHere's a value with !bangs!!!
