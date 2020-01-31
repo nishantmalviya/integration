@@ -79,5 +79,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>KafkaSchemaRegistry</module>
+		<module>CustomJsonParser</module>
 	</modules>
 </project>
