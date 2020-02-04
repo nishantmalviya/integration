@@ -80,5 +80,6 @@
 	<modules>
 		<module>KafkaSchemaRegistry</module>
 		<module>CustomJsonParser</module>
+		<module>SpringBatchIntegration</module>
 	</modules>
 </project>
