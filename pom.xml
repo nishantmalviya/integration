@@ -81,5 +81,7 @@
 		<module>KafkaSchemaRegistry</module>
 		<module>CustomJsonParser</module>
 		<module>SpringBatchIntegration</module>
+		<module>CustomSpringSFTP</module>
+		<module>SpringConfigServer</module>
 	</modules>
 </project>
