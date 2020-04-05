@@ -83,5 +83,6 @@
 		<module>SpringBatchIntegration</module>
 		<module>CustomSpringSFTP</module>
 		<module>SpringConfigServer</module>
+		<module>SpringConfigClient</module>
 	</modules>
 </project>
