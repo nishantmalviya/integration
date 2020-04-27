@@ -4,3 +4,4 @@ spring:
  cloud:
   config:
    uri: ${service.url}
+management.endpoints.web.exposure.include: '*'
