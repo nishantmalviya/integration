@@ -84,5 +84,6 @@
 		<module>CustomSpringSFTP</module>
 		<module>SpringConfigServer</module>
 		<module>SpringConfigClient</module>
+		<module>KafkaEnrichment</module>
 	</modules>
 </project>
