@@ -1,0 +1,40 @@
+spring:
+    cloud:
+      config:
+        server:
+          git:
+            uri: git@github.com:nishantmalviya/IntegrationConfig.git
+            ignoreLocalSshSettings: true
+            passphrase: changeit
+            privateKey: |
+                        -----BEGIN RSA PRIVATE KEY-----
+                        Proc-Type: 4,ENCRYPTED
+                        DEK-Info: AES-128-CBC,913AD8403F23118F71AD178D895DA7EA
+                        
+                        2ALtph8sRczn7ximzb42XWwT0K6/o8QVls2J0knN1CnB/rb2CWLPbZKpBvup49Kn
+                        p9KQ0O3Rjgkxz5Ecrtg7k2UNsfKJTs+fSNqBITkTYX656CO24U5lZ7GrmkMIOc4p
+                        4mq9hUIL5Iy4MCL1r8eHpuWQs/B8EnDfFhxeq43A4cIzGH2mYeR7BCWri5tF7rJx
+                        1hb66x9/ndCXJh+ZdqnJvO3qGrlPMHPow36pRqWjafKEyh5a2P+Kq061ocH35J3M
+                        exaXNi9e36nPACvyxWc31ZaFqqCPcvktyLvZobIBiSjKwbpCQ6Z7AgM4IrzTNMsT
+                        jQL2g57CAVNHUUs4FDbYFJ3VCFhSSQeQBrb/USPeNuTWSpcRnHsqd4Ek6Wnu/q7J
+                        XV60JkCYh3+EeCig++ohM7/d8nwR6Ghv6F1XZ7eVl8HYa82VP05+52FTL3uhvyLd
+                        jOK8s7NOF7RybDJ6VxHxxSb2mrwY+wJAC5EoxGZIc/KLInetn1mfTAih3RibKwzM
+                        VQ7S/zcOKIXGV6iCRF+SbcNHm3LxsrO0m2KGq09wAnWcnG58NHx0BAbTk2WHNoBU
+                        PomoadTKpFxUgIau++eW41ZzUXVPFdQK0slg+x9jepHgLA9gEkvUv8kcM6ZCAfHr
+                        MfgkI2bZXwbKKvS2J2mYQx6EygrdN40XaKiVRYmHcuDSkAPTN67fUzK0dRCp4/oF
+                        LVTUc9rGqMXh/5ebmyY+gZYIh5y9k0cU4v4/2fC/z4uYd8Pd8syJU+CICT0zyjvw
+                        VndRPoiV3RHD6qSl1Ht4jJeZll2UqpxitG4eKa5uPOqtXKtZM0pcsETAlp7+SfcY
+                        OXJcOR5D1lhsaANL0vZN2OzMRXmZ5wFBgkJ2KcwuPLM0P7Ib22tCTEmxlrUvtOSK
+                        PyVl0DRhtO18sGYEY4DiXue6EPx+2KPbv3H+JxOKUqye6lFStvjl+39w88hFXeAL
+                        ML3oYcYXHs39HVUgx1EZ8XIYarjuoNBDG+6YY6uLSJXIIZk6qUhjigEwDVClQY84
+                        9cNYExKl64alFsygFX+lQqnwdLsz0bvWoDHnwf+8ZY6c1t0S7e6kXnl/st02xM7x
+                        WFQS6fB3ifCsp8X3YmhpGdaEbyySkoHRWNMBqsFNt4rMdCGC82VnFqzgBZdivxB5
+                        i/0VEdkE+hbbunE+47Jrwd05rD5RkwSopHZ7mAX8tiy8TLm3bcyYSJt5atS26xZ6
+                        OUPtJcecKidrHVfOgVqVxjjZnSRO2SGFefJwx8Xsk3Ux3qTfj9nUoLOGm6bEmv1I
+                        86UNwPHjQx4qZnsg6MrPDuNRzWp3/4Je9n+8ySxtHlW8kkV7+Lp2lrTCX1IXaH9r
+                        g8VpdI1wNZsB/UQF5L348MAAnFaX+RIUb+51qAuK4m4OxABUex6pol7v6YQC21wX
+                        VT6PoNF52wYVkYR2oVTBRWLZ1ojqhsKeqJWqhSNvCS2Squ+8LAdgaCY7V0UwvMTU
+                        fG7pV/mcURW4mGjeGthOFS2v4kiy84jmI8kBedRMj8NCFoY7IMbzgwDNO/aY3Kid
+                        Wr5n79e56/bB7qktG8vPqJKGVjZV1DAuz53yTUBA44RrAXrBIbLK80lCQOaEXcE9
+                        -----END RSA PRIVATE KEY-----
+                        
