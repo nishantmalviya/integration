@@ -85,5 +85,6 @@
 		<module>SpringConfigServer</module>
 		<module>SpringConfigClient</module>
 		<module>KafkaEnrichment</module>
+		<module>SpringSlueth</module>
 	</modules>
 </project>
